@@ -64,7 +64,7 @@ bip32 = { version = "0.5.1", optional = true }
 rand_core = { version = "0.6.4", features = ["std"], optional = true }
 
 # [OPTIONAL] for "evm", "jsonrpc_client"
-reqwest = { version = "0.11.20", optional = true } # https://github.com/seanmonstar/reqwest/releases
+reqwest = { version = "0.12.5", optional = true } # https://github.com/seanmonstar/reqwest/releases
 tokio = { version = "1.32.0", features = ["full"], optional = true } # https://github.com/tokio-rs/tokio/releases
 
 # [OPTIONAL] for "evm"
